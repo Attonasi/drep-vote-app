@@ -1,0 +1,26 @@
+<!-- Transaction Sign Form -->
+<div class="card mt-4" style="width: 100%; margin: 10%; box-sizing: border-box; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div class="card-header">Sign Transaction</div>
+    <div class="card-body">
+        <form id="transactionSignForm">
+            <div class="mb-3">
+                <label for="txBodyFile" class="form-label">Transaction Body File</label>
+                <input type="text" class="form-control" id="txBodyFile" name="tx_body_file" required>
+            </div>
+            <div class="mb-3">
+                <label for="paymentSkey" class="form-label">Payment Signing Key</label>
+                <input type="text" class="form-control" id="paymentSkey" name="payment_skey" required>
+            </div>
+            <div class="mb-3">
+                <label for="drepSkey" class="form-label">DRep Signing Key</label>
+                <input type="text" class="form-control" id="drepSkey" name="drep_skey" required>
+            </div>
+            <div class="mb-3">
+                <label for="outFileSign" class="form-label">Output File</label>
+                <input type="text" class="form-control" id="outFileSign" name="out_file" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Transaction</button>
+        </form>
+    </div>
+    </div>
+</div>

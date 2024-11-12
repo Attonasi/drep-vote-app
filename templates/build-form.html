@@ -1,0 +1,33 @@
+<!-- Floating form for VoteBuild -->
+<div class="card mt-4" style="width: 100%; margin: 10%; box-sizing: border-box; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div class="card-body">
+        <h5 class="card-title">Vote Submission Form</h5>
+        <form id="voteForm" action="#" method="post">
+            <div class="form-group">
+                <label for="bashCommand">Bash Command</label>
+                <input type="text" class="form-control" id="bashCommand" name="bash_command" required>
+            </div>
+            <div class="form-group">
+                <label for="vote">Vote</label>
+                <input type="text" class="form-control" id="vote" name="vote" required>
+            </div>
+            <div class="form-group">
+                <label for="txId">Transaction ID</label>
+                <input type="text" class="form-control" id="txId" name="tx_id" required>
+            </div>
+            <div class="form-group">
+                <label for="index">Index</label>
+                <input type="text" class="form-control" id="index" name="index" required>
+            </div>
+            <div class="form-group">
+                <label for="dRepKeyFile">DRep Key File</label>
+                <input type="text" class="form-control" id="dRepKeyFile" name="drep_key_file" required>
+            </div>
+            <div class="form-group">
+                <label for="outFile">Output File</label>
+                <input type="text" class="form-control" id="outFile" name="outfile" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Build Vote</button>
+        </form>
+    </div>
+</div>
